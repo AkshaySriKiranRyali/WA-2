@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(8, 5, 5);
+    background-color:rgb(8, 5, 5);
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
 }
@@ -9,7 +9,7 @@ body{
     display: block;
     text-align: center;
     padding: 100px;
-    height: 160px;
+    height: 160px auto;
     width: 100% auto;
     border-left: 10px;
     border-right: 10px;
@@ -24,7 +24,7 @@ body{
     display: block;
     text-align: center;
     padding: 100px;
-    height: 180px;
+    height: 180px auto;
     width: 100% auto;
     border-left: 10px;
     border-right: 10px;
@@ -39,7 +39,7 @@ body{
     display: block;
     text-align: center;
     padding: 100px;
-    height: 160px;
+    height: 160px auto;
     width: 100% auto;
     border-left: 10px;
     border-right: 10px;
