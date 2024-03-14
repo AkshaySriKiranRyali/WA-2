@@ -43,23 +43,13 @@ function calculateTotalBill() {
 
         document.getElementById('totalResult').textContent = `Total Amount of bill (including ${tipPercentage}% tip): $${totalAmount.toFixed(2)}`;
     }
+    //used alert for popup message
     else {
         document.getElementById('totalResult').textContent = alert(`Please Enter valid subtotal amount!`);
     }
 
 }
-
-window.addEventListener('load', function () {
-    const subtotalInput = document.getElementById('subtotal');
-    const tipInput = document.getElementById('tip');
-    const palindromeInput = document.getElementById('inputPalindrome').value;
-    const reverseInput = document.getElementById('inputString').value;
-    subtotalInput.value = '';
-    tipInput.value = '';
-    palindromeInput.value = '';
-    reverseInput.value = '';
-});
-
+//Enter button function
 const inputString = document.getElementById('stringInput');
 inputString.addEventListener('keyup', function (event) {
     if (event.key === 'Enter') {
@@ -73,3 +63,4 @@ inputPalindrome.addEventListener('keyup', function (event) {
         checkPalindrome();
     }
 });
+
